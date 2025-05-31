@@ -1,7 +1,4 @@
-// src/components/Faq.jsx
 import React, { useState } from "react";
-// نیازی به import تصویر از پوشه public نیست
-// import FaqImage from "/images/207prize-faq.png"; // <-- این خط را حذف کنید
 
 const FaqItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +28,7 @@ const FaqItem = ({ question, answer }) => {
       </button>
       {isOpen && (
         <div className="p-4 bg-gray-50 text-gray-700 text-sm sm:text-base leading-relaxed">
-          {/* استفاده از dangerouslySetInnerHTML برای رندر کردن تگ های HTML در پاسخ */}
+        
           <p
             dangerouslySetInnerHTML={{
               __html: answer.replace(
@@ -73,7 +70,7 @@ const Faq = () => {
     },
   ];
 
-  const FaqImagePath = "/images/207prize-faq.png"; // مسیر مستقیم به تصویر در پوشه public
+
 
   return (
     <section className="py-12 bg-gray-50">
@@ -95,9 +92,8 @@ const Faq = () => {
           </div>
           <div className="md:w-1/3 mt-8 md:mt-12 flex justify-center">
             <div className="bg-gray-200 rounded-lg shadow-lg w-full max-w-xs aspect-w-9 aspect-h-16 flex items-center justify-center">
-              {/* استفاده از مسیر مستقیم */}
               <img
-                src={FaqImagePath}
+                src= "/images/mahdi.jpg"
                 alt="سوالات متداول"
                 className="max-h-full max-w-full object-contain"
               />

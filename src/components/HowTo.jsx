@@ -1,32 +1,29 @@
-// src/components/HowTo.jsx
-import React from "react";
 
-// فرض کنید تصاویر در مسیر public/images/points/ ذخیره شده‌اند
-const points = [
+let points = [
   {
     title: "فعالسازی سیم کارت دائمی",
     score: "100 امتیاز",
-    img: "/images/points/package100.jpg",
+    img: "/images/mahdi.jpg",
   },
   {
     title: "فعالسازی مجدد سیم‌کارت",
     score: "50 امتیاز",
-    img: "/images/points/package4.jpg",
+    img: "/images/mahdi.jpg",
   },
   {
     title: "کارکرد (به ازای هر 10,000 ریال)",
     score: "1 امتیاز",
-    img: "/images/points/package3.jpg",
+    img: "/images/mahdi.jpg",
   },
   {
     title: "تبدیل اعتباری به دائمی",
     score: "100 امتیاز",
-    img: "/images/points/package2-2.jpg",
+    img: "/images/mahdi.jpg",
   },
   {
     title: "فعالسازی سیم کارت اعتباری",
     score: "10 امتیاز",
-    img: "/images/points/package5.jpg",
+    img: "/images/mahdi.jpg",
   },
 ];
 
@@ -49,7 +46,7 @@ const HowTo = () => {
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end order-1 md:order-2">
             <img
-              src="/images/207prize-faq.png" // مسیر نمونه برای تصویر این بخش
+              src="/images/mahdi.png" 
               alt="شرکت در قرعه کشی پژوه 207"
               className="rounded-lg max-w-xs w-full"
             />

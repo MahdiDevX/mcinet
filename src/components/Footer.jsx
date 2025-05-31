@@ -1,13 +1,9 @@
-// src/components/Footer.jsx
+
 import React from "react";
 
-// نیازی به import تصاویر از پوشه public نیست
-
 const Footer = () => {
-  // مسیرها به تصاویر در پوشه public باید از ریشه باشند
-  const EnamadLogoPath = "/images/footer/enamad.png";
-  const SamandehiLogoPath = "/images/footer/195.png";
-
+  const EnamadLogoPath = "/images/enamad-logo.png";
+  const SamandehiLogoPath = "/images/samandehi-logo.png";
   return (
     <footer className="bg-gray-800 text-gray-300 text-sm">
       <div className="container mx-auto px-4 py-8">

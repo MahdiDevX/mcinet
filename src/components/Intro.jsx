@@ -1,8 +1,6 @@
-// src/components/Intro.jsx
-import React from "react";
 
-const Intro = () => {
-  const peugeotImagePath = "/images/207prize.png"; // مسیر تصویر در پوشه public
+let Intro = () => {
+  
 
   return (
     <section className="py-12 bg-white">
@@ -20,10 +18,9 @@ const Intro = () => {
             </p>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-start">
-            {/* کامنت را می‌توانید اینجا یا خارج از تگ قرار دهید */}
-            {/* Use the direct path variable here */}
+          
             <img
-              src={peugeotImagePath}
+              src="/images/mahdi.png"
               alt="قرعه کشی استانی پژو 207 همراه اول"
               className="rounded-lg shadow-lg max-w-sm w-full"
             />
